@@ -1,0 +1,159 @@
+Components in Mirobs Application (English)
+
+1. Navigation
+- Home
+- Solutions
+- Products
+- Industries
+- Features
+- Contact
+
+2. Hero Section
+- Title: Revolutionize Waste Management
+- Subtitle: Smart IoT solutions for efficient and sustainable waste operations
+- Badge: Crafting Solutions Based on Industry 4.0 Technologies
+- Buttons: Get Started, Learn More
+
+3. Contact Us
+- Title: Get in Touch
+- Subtitle: Ready to transform your waste management? Contact us today for a consultation.
+- Contact Information:
+  * General Inquiries: info@sensiq.ae
+  * Sales: sales@sensiq.ae
+  * Phone: 528004558
+  * Address: SensiQ [FZC], Sharjah Technology Innovation Park, UAE.
+
+4. Smart Tools
+- Title: Smart Solutions
+- Subtitle: Comprehensive tools for modern waste management
+- Categories:
+  * SensIQ Devices: Advanced hardware for accurate waste level detection and monitoring
+  * Applications: Seamless platform for web and mobile applications for efficient waste management
+
+5. Solutions Section
+- Title: Smart Waste Management Solutions
+- Subtitle: Transforming cities with intelligent waste management technology
+- Categories:
+  * Smart Waste Monitoring
+  * RFID-powered bin and asset tracking
+  * Facility Waste Management
+  * Industrial Waste Management
+
+6. Cloud Integration
+- Title: Cloud Infrastructure & IoT Integration
+- Sections:
+  * IoT Data Collection
+  * Cloud Storage & Processing
+  * Data Security
+  * API Integration
+
+7. Engineered Platform
+- Title: Engineered Platform
+- Features:
+  * Mobile Application
+  * Web Dashboard
+  * Cloud Integration
+
+8. Industries Section
+- Title: Industrial Waste Management Solutions
+- Categories:
+  * Cities & Municipalities
+  * Factories & Industrial Plants
+  * Retail & Commercial Spaces
+  * Hospitals & Healthcare
+  * Educational Institutions
+  * Recycling Centers
+
+9. Products Section
+- Title: Smart Waste Management Products
+- Categories:
+  * SN10 (Bin Sensors)
+  * RFID Asset Tracker
+  * DriverSync Application
+  * Facility Management Dashboard
+
+10. Process Features
+- Title: Smart Waste Management Features
+- Categories:
+  * IoT-Enabled
+  * Real-time Monitoring
+  * Data-Driven Optimization
+  * Reduced Costs
+  * Increased Sustainability
+  * Enhanced Public Services
+
+11. SensIQ Product Details
+- Title: SN10
+- Subtitle: Smart IoT Solution for Real-time Waste Management
+- Sections:
+  * Product Overview
+  * Features
+  * Technical Specifications:
+    - Sensor: Ultrasonic with 20-400 cm range, ±2 cm accuracy
+    - Connectivity: 
+      > LTE CAT-1 (B1, B3, B5, B8, B20, B28)
+      > Fallback: 2G/3G/NB-IoT
+      > SIM: eSIM/4FF Nano SIM with multi-carrier roaming
+    - Power:
+      > Battery: 2 x Li-ion (10000 mAh)
+      > Sleep Current: <10 μA
+      > Battery Life: 2+ years (1 update/hour)
+    - Communication:
+      > Update Interval: Configurable (5 mins-24 hrs)
+      > Protocols: MQTT, HTTPS, TCP/UDP
+    - Environmental:
+      > Operating Temperature: -20°C to +70°C
+      > IP Rating: IP67 (dust/waterproof)
+    - Physical:
+      > Dimensions: 130 x 130 x 50 mm
+      > Weight: 150 g
+  * Key Features:
+    - Adaptive reporting based on fill rate and motion
+    - Tamper detection alerts
+    - Weatherproof design
+    - Long battery life
+  * Integration & Security
+
+12. Dashboard
+- Title: Smart Waste Management System
+- Stats:
+  * Active Bins: 844
+  * Total Users: 150+
+  * Data Points: 25000+
+  * Success Rate: 99.9%
+- Sections:
+  * Device Alerts Dashboard
+  * Device History Tracking
+  * Global Deployment Map
+  * Waste Collection Analytics
+  * Bin Status Overview
+
+13. Video Section
+- Monitoring
+- Bin Filter
+- Location Tracking
+
+14. Smart Products
+- Title: Smart Industrial Solutions
+- Products:
+  * SN10
+  * RFID Asset Tracker
+
+15. RFID Tracker
+- Title: RFID Asset Tracking System
+- Sections:
+  * Product Overview
+  * Features
+  * Technical Specifications
+  * Functionality
+  * Integration & Security
+
+16. Product Showcase
+- Badge: Revolutionary IoT Solution
+- Title: Transforming Waste Management with Smart Technology
+- Features:
+  * Real-time waste level monitoring
+  * Advanced data analytics
+  * Smart route optimization
+  * Cloud integration
+  * Fleet management 

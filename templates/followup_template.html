@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Follow-up: {{subject}}</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #e9eef4;
+            background-color: #0c1117;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #0c1117;
+            padding: 20px;
+        }
+        
+        .header {
+            background-color: #1a1f26;
+            padding: 25px 20px;
+            text-align: center;
+            border-radius: 12px;
+        }
+        
+        .logo {
+            max-width: 150px;
+            height: auto;
+        }
+        
+        .content-section {
+            background-color: #131820;
+            padding: 30px;
+            margin: 20px 0;
+            border-radius: 12px;
+            border: 1px solid #0ef0a1;
+        }
+        
+        .greeting {
+            color: #0ef0a1;
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+        
+        .content-text {
+            color: #e9eef4;
+            font-size: 16px;
+            line-height: 1.8;
+            margin-bottom: 15px;
+            white-space: pre-line;
+        }
+        
+        .highlight {
+            color: #0ef0a1;
+            font-weight: 500;
+        }
+        
+        .cta-section {
+            background-color: #1a1f26;
+            padding: 25px;
+            margin: 20px 0;
+            border-radius: 12px;
+            text-align: center;
+            border: 2px solid #0ef0a1;
+        }
+        
+        .cta-button {
+            display: inline-block;
+            background: #05a67b;
+            color: white !important;
+            text-decoration: none;
+            padding: 14px 30px;
+            border-radius: 50px;
+            font-weight: 600;
+            font-size: 15px;
+            margin: 10px;
+            transition: all 0.3s ease;
+        }
+        
+        .cta-button:hover {
+            transform: translateY(-3px);
+            background: #048f6b;
+            box-shadow: 0 5px 15px rgba(14, 240, 161, 0.3);
+        }
+        
+        .signature {
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #1a1f26;
+            color: #9ba6b7;
+        }
+        
+        .contact-info {
+            margin-top: 15px;
+            font-size: 14px;
+        }
+        
+        .contact-info a {
+            color: #0ef0a1;
+            text-decoration: none;
+        }
+        
+        .country-specific {
+            background-color: #1a1f26;
+            padding: 25px;
+            margin: 20px 0;
+            border-radius: 12px;
+            border-left: 4px solid #0ef0a1;
+            color: #e9eef4;
+            line-height: 1.8;
+            font-size: 16px;
+        }
+        
+        .country-specific p {
+            margin: 0;
+            padding: 0;
+            text-align: justify;
+        }
+        
+        .feature-list,
+        .bullet-list {
+            list-style: none;
+            padding-left: 0;
+            margin: 0;
+        }
+        
+        .feature-item {
+            color: #e9eef4;
+            font-size: 16px;
+            line-height: 1.8;
+            margin: 10px 0;
+            padding-left: 32px;
+            position: relative;
+        }
+        
+        .feature-item:before {
+            content: "✅";
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 18px;
+        }
+        
+        .feature-card {
+            background-color: #131820;
+            border: 1px solid #0ef0a1;
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        
+        .eco-badge {
+            background-color: #1a1f26;
+            border: 1px solid #05a67b;
+            border-radius: 12px;
+            padding: 20px;
+            margin: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="cid:logo" alt="SensIQ" class="logo">
+        </div>
+        
+        <div class="content-section">
+            <div class="greeting">
+                Hi {{recipient_name}},
+            </div>
+            
+            <div class="content-text">
+                {{followup_intro}}
+            </div>
+            
+            <div class="feature-card">
+                <div class="country-specific">
+                    {{country_specific_content}}
+                </div>
+            </div>
+            
+            <div class="feature-card">
+                <div class="content-text">
+                    {{main_content}}
+                </div>
+            </div>
+        </div>
+        
+        <div class="eco-badge">
+            <div class="content-text">
+                {{cta_message}}
+            </div>
+            
+            <div style="margin: 20px 0;">
+                <a href="https://calendly.com/rebecca-sensiq/30min" class="cta-button">
+                    📅 Schedule a Meeting
+                </a>
+                
+                <a href="https://wa.me/971528004558" class="cta-button">
+                    📱 WhatsApp Us
+                </a>
+            </div>
+        </div>
+        
+        <div class="signature">
+            <div class="content-text">
+                Best regards,<br>
+                Rebecca<br>
+                Business Development Representative<br>
+                SensIQ
+            </div>
+            
+            <div class="contact-info">
+                📞 <a href="tel:+97152800455">+971 52 800 4558</a><br>
+                🌐 <a href="https://www.sensiq.ae">www.sensiq.ae</a><br>
+                📲 WhatsApp: +971 528004558
+            </div>
+        </div>
+    </div>
+</body>
+</html> 
